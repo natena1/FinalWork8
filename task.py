@@ -1,22 +1,22 @@
 import random
 
 # task a
-A = []
+A1 = []
 sum = 0
 
 print("Array:")
 for i in range(20):
-    A.append(random.randint(-10, 10))
+    A1.append(random.randint(-10, 10))
     print("{:4d}".format(A[i]), end=" ")
 print("\n")
 
 print("Changed array:")
 for i in range(20):
-    if A[i] >= 0:
-        print("{:4d}".format(A[i]), end=" ")
+    if A1[i] >= 0:
+        print("{:4d}".format(A1[i]), end=" ")
 for i in range(20):
-    if A[i] < 0:
-        print("{:4d}".format(A[i]), end=" ")
+    if A1[i] < 0:
+        print("{:4d}".format(A1[i]), end=" ")
 print("\n")
 
 # task b
